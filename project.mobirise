@@ -46,28 +46,12 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "uniqCompNum": 38,
+    "uniqCompNum": 42,
     "versionPublish": "5.6.11",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "chatbutton": {
-      "phone": " +918779379479",
-      "message": "",
-      "size": "65px",
-      "backgroundColor": "#e5ddd5",
-      "position": "left",
-      "popupMessage": "Hi!👋\n\nType a message here. It will go straight to our phone! 🔥\n\nSine Pest Control ",
-      "showPopup": true,
-      "showOnIE": true,
-      "autoOpenTimeout": "5",
-      "headerColor": "#39847a",
-      "headerTitle": "👋 Chat with us on WhatsApp!",
-      "placeholder": "Type here",
-      "zIndex": 10,
-      "enabled": true
-    },
     "favicon": false,
-    "mbrsiteDomain": "tzxewqpfhd",
+    "mbrsiteDomain": "4nmarspztf",
     "cssOptimize": true,
     "lazyLoad": true,
     "robotsSwitcher": false,
@@ -75,7 +59,8 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "chatbutton": false
   },
   "pages": {
     "index.html": {
@@ -712,7 +697,7 @@
           },
           "_name": "content6",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"><b>Mumbai:-<br></b>Borivali-  Santacruz -  Grant Road-Dadar-Airoli -Thane-Dombivali\n<br>\n<br><b>Surat\n<br></b>\n<br><b>Dehli\n<br></b>\n<br><b>Haryana&nbsp;&nbsp;</b><br></p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"><b>Mumbai:-<br></b>Borivali-  Santacruz -  Grant Road-Dadar-Airoli -Thane-Dombivali\n<br>\n<br><b>Surat\n<br></b>\n<br><b>Delhi\n<br></b>\n<br><b>Haryana&nbsp;&nbsp;</b><br></p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tf9DZ2Fi1E",
           "_anchor": "content6-11",
           "_protectedParams": [],
@@ -1125,6 +1110,25 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- GetButton.io widget -->\n[JS_CODE_0]\n<!-- /GetButton.io widget -->\n\n[JS_CODE_1]<br>\n <a href=\"https://bachelorthesiswritingservice.com/\">Bachelor Thesis Ghostwriting</a> [JS_CODE_2]",
+          "_customCSS": "",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "custom-html-12",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\">\n    (function () {\n        var options = {\n            call: \"+919222204121\", // Call phone number\n            call_color: \"#129BF4\", // Call button color\n            whatsapp: \"+919820372779\", // WhatsApp number\n            call_to_action: \"Quick Contact\", // Call to action\n            button_color: \"#FF6550\", // Color of button\n            position: \"right\", // Position may be 'right' or 'left'\n            order: \"whatsapp,call\", // Order of buttons\n            pre_filled_message: \"hi\", // WhatsApp pre-filled message\n        };\n        var proto = 'https:', host = \"getbutton.io\", url = proto + '//static.' + host;\n        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\n        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };\n        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n    })();\n</script>",
+            "<script type=\"text/javascript\" src=\"https://www.free-counters.org/count/b8px\"></script>",
+            "<script type='text/javascript' src='https://www.whomania.com/ctr?id=5c72783bba995d9c40942e6d49548da54b4a14a6'></script>"
+          ]
         },
         {
           "_name": "afooter2",
